@@ -17,12 +17,12 @@ public class ConsoleRunner implements CommandLineRunner {
         if(hockeyPlayerRepository.count() == 0) {
             HockeyPlayer hockeyPlayer = new HockeyPlayer();
             hockeyPlayer.setAge(52);
-            hockeyPlayer.setName("Haider");
+            hockeyPlayer.setName("Stefan");
             hockeyPlayerRepository.save(hockeyPlayer);
 
             hockeyPlayer = new HockeyPlayer();
-            hockeyPlayer.setAge(16);
-            hockeyPlayer.setName("Ahmed");
+            hockeyPlayer.setAge(29);
+            hockeyPlayer.setName("Haider");
             hockeyPlayerRepository.save(hockeyPlayer);
 
 
